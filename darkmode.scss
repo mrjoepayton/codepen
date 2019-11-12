@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700|Roboto:300,400,700&display=swap');
+
+$white: #FFF;
+$black: #000;
+
+$blue: #3383FB;
+
+$app-bg: #2D343E;
+$panel-bg: #39414D;
+$header-bg: #414954;
+
+$inputBG: #2D343D;
+$inputBorder: #5E6670;
+
+$icon-color: #99A6B6;
+
+@mixin font-sans {
+  font-family: 'Roboto', sans-serif;
+}
+
+@mixin font-condensed {
+  font-family: 'Roboto Condensed', sans-serif;
+}
