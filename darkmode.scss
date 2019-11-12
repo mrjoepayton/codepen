@@ -21,3 +21,11 @@ $icon-color: #99A6B6;
 @mixin font-condensed {
   font-family: 'Roboto Condensed', sans-serif;
 }
+
+@mixin transall($target:all,$speed:500ms,$easing:ease-in-out,$delay:0ms){
+  -webkit-transition: $target $speed $easing $delay;
+  -moz-transition: $target $speed $easing $delay;
+  -ms-transition: $target $speed $easing $delay;
+  -o-transition: $target $speed $easing $delay;
+  transition: $target $speed $easing $delay;
+}
