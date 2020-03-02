@@ -46,3 +46,12 @@ padding: 0;
   }
 
 }
+
+@mixin dark-input() {
+  background-color: #39414d;
+  border: 1px solid #5e6670;
+  border-radius: 3px;
+  position: relative;
+  min-width: 280px;
+  width: 100%;
+}
