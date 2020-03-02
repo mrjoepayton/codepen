@@ -29,3 +29,20 @@ $icon-color: #99A6B6;
   -o-transition: $target $speed $easing $delay;
   transition: $target $speed $easing $delay;
 }
+
+@mixin clear-appearance() {
+background: transparent;
+border: 0;
+box-shadow: none;
+cursor: inherit; // Buttons don’t make the cursor change in all browsers
+line-height: normal; // Override line-height to avoid spacing issues
+margin: 0;
+outline: none;
+padding: 0;
+
+  &::-moz-focus-inner { // Corrects padding/border on mozilla browsers on focus
+  padding: 0;
+  border: 0;
+  }
+
+}
