@@ -22,7 +22,7 @@ $icon-color: #99A6B5;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-@mixin transall($target:all,$speed:500ms,$easing:ease-in-out,$delay:0ms){
+@mixin transall($target:all,$speed:800ms,$easing:ease-in-out,$delay:0ms){
   -webkit-transition: $target $speed $easing $delay;
   -moz-transition: $target $speed $easing $delay;
   -ms-transition: $target $speed $easing $delay;
